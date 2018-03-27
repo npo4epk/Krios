@@ -1,0 +1,12 @@
+
+<section class="portfolio">
+    <ul class="portfolio__list" v-if="dataPage">
+        <li class="portfolio__block-item block-item" v-bind:title="item.title" v-bind:style="{backgroundImage: 'url('+'img/portfolio/' + item.title + '.jpg'+')' }" v-for="item in dataPage.portfolio.items">
+            <div class="block-item__preview preview">
+                <img src="img/icon-logo.svg" class="preview__img" v-bind:alt="item.title">
+                <a href="#" class="preview__link" v-on:click.prevent="modalOpen(item.title)" v-bind:title="dataPage.portfolio.title">{{dataPage.portfolio.title}} <i class="fas fa-angle-right"></i></a>
+            </div>
+        </li>
+    </ul>
+    <modal-window v-if="showModal" v-on:close="modalClose()" v-bind:data="dataModal[language]"></modal-window>
+</section>

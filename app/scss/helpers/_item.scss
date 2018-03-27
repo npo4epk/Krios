@@ -1,0 +1,167 @@
+
+/* @Import
+ ========================= */
+@import "../components/_variables";
+@import "_mixins";
+
+.description {
+  position: relative;
+
+  &__caption {
+    position: relative;
+    display: block;
+    margin-bottom: 10%;
+  }
+
+  &__content {
+    position: relative;
+  }
+}
+
+.caption {
+  position: relative;
+  display: block;
+  text-align: center;
+
+  &__text {
+    font-family: $font-bold;
+    font-size: $font-size-45;
+    font-size: 2.5rem;
+    line-height: $line-height-48;
+    line-height: 2.666666666666667rem;
+    font-weight: 400;
+    margin: 0;
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+  &__item {
+    position: relative;
+    display: block;
+  }
+}
+
+.item {
+  position: relative;
+  display: block;
+  margin: 0;
+  text-align: center;
+  flex-basis: calc(100% / 4);
+  flex-grow: 1;
+  flex-shrink: 0;
+
+  &__img {
+    position: relative;
+    display: none;
+    margin-bottom: 25px;
+    transition: display 1s;
+  }
+
+  svg {
+    margin-bottom: 25px;
+  }
+
+  &__text {
+    position: relative;
+    display: block;
+    margin: 0;
+  }
+}
+
+.about-svg path,
+.about-svg rect {
+  fill: none;
+  stroke: $svg-000000;
+  stroke-width: 1.5
+}
+
+.about-svg #svg-red {
+  fill: none;
+  stroke: $svg-c90001;
+  stroke-width: 2
+}
+
+.services-svg path,
+.services-svg rect {
+  fill: none;
+  stroke: $svg-ffffff;
+  stroke-width: 1.5
+}
+
+.model-svg path,
+.model-svg rect {
+  fill: none;
+  stroke: $svg-000000;
+  stroke-width: 1.5;
+}
+
+.model-svg #svg-red {
+  fill: none;
+  stroke: $svg-c90001;
+  stroke-width: 2;
+}
+
+/* @Media
+ ========================= */
+@media only screen and (max-width: $size-992) {
+
+  .content {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .item {
+    flex-basis: calc(100% / 2);
+    padding-bottom: 35px;
+
+    &__img {
+      margin-bottom: 15px;
+    }
+
+    svg {
+      margin-bottom: 15px;
+    }
+  }
+
+}
+
+@media only screen and (max-width: $size-600) {
+
+  .item {
+    flex-basis: 100%;
+    padding-bottom: 35px;
+
+    &:last-child {
+      padding-bottom: 0;
+    }
+
+    &__img {
+      margin-bottom: 15px;
+    }
+
+    svg {
+      margin-bottom: 15px;
+    }
+  }
+
+}
+
+@media only screen and (max-width: $size-500) {
+
+  .caption {
+
+    &__text {
+      font-size: $font-size-35;
+      font-size: 1.944444444444444rem;
+      line-height: $line-height-38;
+      line-height: 2.111111111111111rem;
+    }
+  }
+
+}

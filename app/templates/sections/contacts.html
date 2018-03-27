@@ -1,0 +1,48 @@
+
+<section class="contacts">
+    <div class="contacts__wrapper wrapper">
+        <div class="wrapper__text text">
+            <div class="text__form-block form-block" v-if="dataPage">
+                <div class="container">
+                    <div class="form-block__container">
+                    <div class="form-block__caption caption">
+                        <h3 class="caption__text">{{dataPage.contacts.title}}</h3>
+                    </div>
+                    <div class="form-block__communication communication">
+                        <div class="communication__address address" id="address">
+                            <ul class="address__list">
+                                <li class="address__item" v-html="item.text" v-for="item in dataPage.contacts.address"></li>
+                            </ul>
+                        </div>
+                        <form method="post" class="communication__form-callback form-callback" id="form-callback" autocomplete="off" v-on:submit.prevent="submitForm($event)">
+                            <div v-for="item in dataPage.contacts.form"
+                                 v-bind:class="classItem(item.id)">
+                                <input v-bind:type="item.type"
+                                       v-bind:placeholder="item.text"
+                                       v-bind:name="item.name"
+                                       v-bind:id="item.name"
+                                       v-bind:title="item.text"
+                                       required="required"
+                                       class="form-callback__input">
+                            </div>
+                            <input type="hidden" name="lang" v-bind:value="dataPage.language">
+                            <input class="form-callback__submit" type="submit" name="submit" v-bind:title="dataPage.contacts.submit" v-bind:value="dataPage.contacts.submit">
+                        </form>
+                        <div class="communication__answer answer" id="answer">
+                            <p class="answer__text" v-html="answerText"></p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="text__map map">
+                <div class="map__block" id="map">Map</div>
+            </div>
+        </div>
+        <footer class="wrapper__footer footer" v-if="dataPage">
+            <div class="container">
+                <p class="footer__text">{{dataPage.contacts.footer}}</p>
+            </div>
+        </footer>
+    </div>
+</section>

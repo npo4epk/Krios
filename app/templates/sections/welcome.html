@@ -1,0 +1,21 @@
+
+<section class="welcome">
+    <div class="container">
+        <div class="welcome__video video" v-if="dataPage">
+            <video class="video__file" autoplay keepplaying data-autoplay="" data-keepplaying="" loop="" muted="">
+                <source class="video__source" src="video/welcome.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="welcome__information information" v-if="dataPage">
+            <div class="information__title title">
+                <h1 class="title__text" v-html="dataPage.welcome.title"></h1>
+            </div>
+            <div class="information__cooperation cooperation">
+                <a href="#contacts" class="cooperation__link" v-bind:title="dataPage.welcome.cooperation" data-anchor="contacts">{{dataPage.welcome.cooperation}}</a>
+            </div>
+        </div>
+        <div class="welcome__scrolling scrolling" v-if="dataPage">
+            <a href="#about" class="scrolling__link" v-bind:title="dataPage.welcome.scrolling" data-anchor="about">{{dataPage.welcome.scrolling}} <i class="fas fa-chevron-double-down"></i> </a>
+        </div>
+    </div>
+</section>

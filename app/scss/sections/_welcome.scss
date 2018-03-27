@@ -1,0 +1,277 @@
+
+/* @Import
+ ========================= */
+@import "../components/_variables";
+@import "../helpers/_mixins";
+
+.welcome {
+  position: relative;
+  display: block;
+  height: 100vh;
+  overflow: hidden;
+
+  &:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../img/bg-background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 1;
+  }
+
+  &__video {
+    display: block;
+  }
+  
+  &__information {
+    position: relative;
+  }
+  
+  &__cooperation {
+    position: relative;
+    display: block;
+  }
+
+  &__scrolling {
+    position: absolute;
+    display: block;
+  }
+}
+
+.video {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url(../img/bg-picture.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  &__file {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+
+  &__title {
+    position: relative;
+    display: block;
+    margin-bottom: 50px;
+  }
+}
+
+.title {
+  position: relative;
+  display: block;
+
+  &__text {
+    font-family: $font-light;
+    font-size: $font-size-60;
+    font-size: 3.333333333333333rem;
+    line-height: $line-height-62;
+    line-height: 3.444444444444444rem;
+    font-weight: normal;
+    text-align: center;
+    color: $color-stack;
+    margin: 0;
+    transition: all 1s;
+
+    &--black {
+      font-family: $font-black;
+    }
+  }
+}
+
+.cooperation {
+  position: relative;
+  display: block;
+
+  &__link {
+    position: relative;
+    display: block;
+    font-family: $font-semibold;
+    font-size: $font-size-16;
+    font-size: 0.8888888888888889rem;
+    line-height: $line-height-18;
+    line-height: 1rem;
+    padding: 15px 40px;
+    border: 2px solid $bgc-ffffff;
+    border-radius: 30px;
+    color: $color-stack;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    transition: background-color 0.8s, color 0.6s;
+
+    &:hover {
+      color: $color-6b0100;
+      background-color: $bgc-ffffff;
+    }
+  }
+}
+
+.scrolling {
+  position: absolute;
+  display: block;
+  left: 0;
+  right: 0;
+  bottom: 50px;
+  width: 55px;
+  height: 55px;
+  border-radius: 100%;
+  border: solid 3px $bgc-ffffff;
+  margin: 0 auto;
+  animation: circle-anim 2.4s infinite ease-in-out !important;
+  z-index: 1;
+
+  &__link {
+    font-size: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/mouse.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all 0.5s;
+  }
+}
+
+/* @Keyframes
+ ========================= */
+@keyframes circle-anim {
+  0% {
+    transform: scale(1);
+  }
+  15% {
+    box-shadow: 0 0 0 2.5px rgba(255, 255, 255, 0.4);
+  }
+  25% {
+    box-shadow: 0 0 0 5px rgba(255, 255, 255, 0.4), 0 0 0 10px rgba(255, 255, 255, 0.2);
+  }
+  25% {
+    box-shadow: 0 0 0 7.5px rgba(255, 255, 255, 0.4), 0 0 0 15px rgba(255, 255, 255, 0.2);
+  }
+}
+
+/* @Media
+ ========================= */
+@media only screen and (max-width: $size-992) {
+
+  .welcome {
+    height: 100vh !important;
+  }
+
+  .title {
+
+    &__text {
+      font-size: $font-size-50;
+      font-size: 2.777777777777778rem;
+      line-height: $line-height-52;
+      line-height: 2.888888888888889rem;
+    }
+  }
+
+}
+
+@media only screen and (max-width: $size-900) {
+
+  .title {
+
+    &__text {
+      font-size: $font-size-50;
+      font-size: 2.777777777777778rem;
+      line-height: $line-height-52;
+      line-height: 2.888888888888889rem;
+    }
+  }
+
+}
+
+@media only screen and (max-width: $size-680) {
+
+  .title {
+
+    &__text {
+      font-size: $font-size-40;
+      font-size: 2.222222222222222rem;
+      line-height: $line-height-42;
+      line-height: 2.333333333333333rem;
+    }
+  }
+
+}
+
+@media only screen and (max-width: $size-600) {
+
+  .title {
+
+    &__text {
+      font-size: $font-size-30;
+      font-size: 1.666666666666667rem;
+      line-height: $line-height-32;
+      line-height: 1.777777777777778rem;
+    }
+  }
+
+  .scrolling {
+    display: none;
+  }
+
+}
+
+@media only screen and (max-width: $size-400) {
+
+  .title {
+
+    &__text {
+      font-size: $font-size-24;
+      font-size: 1.333333333333333rem;
+      line-height: $line-height-26;
+      line-height: 1.444444444444444rem;
+    }
+  }
+
+  .cooperation {
+
+    &__link {
+      padding: 15px 20px;
+    }
+  }
+
+  .scrolling {
+    display: none;
+  }
+
+}
+
+@media only screen and (max-height: $size-550) {
+
+  .welcome {
+    height: 100% !important;
+    padding: 100px 0;
+  }
+
+  .scrolling {
+    display: none;
+  }
+
+}

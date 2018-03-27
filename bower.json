@@ -1,0 +1,43 @@
+{
+  "name": "Template",
+  "version": "1.2.0",
+  "homepage": "https://github.com/npo4epk/Starting-template",
+  "authors": [
+    "Nikita Karpinskiy <nekit-1989@mail.ru>"
+  ],
+  "description": "My Gulp Template",
+  "license": "MIT",
+  "dependencies": {
+    "html5shiv": "~3.7.3",
+    "modernizer": "~2.8.2",
+    "respond": "~1.4.2",
+    "es5-shim": "~4.1.15",
+    "normalize-css": "normalize.css#~3.0.3",
+    "jquery": "~2.1.4",
+    "fullpage.js": "^2.9.2",
+    "font-awesome": "^5.0.6"
+  },
+  "devDependencies": {
+    "vue": "^2.1.10"
+  },
+  "overrides": {
+    "es5-shim": {
+      "main": [
+        "./es5-shim.js",
+        "./es5-sham.js"
+      ]
+    },
+    "html5shiv": {
+      "main": [
+        "./dist/html5shiv.js",
+        "./dist/html5shiv-printshiv.js"
+      ]
+    },
+    "respond": {
+      "main": [
+        "./dest/respond.src.js",
+        "./dest/respond.matchmedia.addListener.src.js"
+      ]
+    }
+  }
+}

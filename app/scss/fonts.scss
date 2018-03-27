@@ -1,0 +1,16 @@
+
+/* @Import
+ ========================= */
+@import "helpers/_mixins";
+
+/* @Fonts
+ ========================= */
+@include font-face('Proximanova-bold', '../fonts/Proximanova/proxima-nova-bold-webfont', normal, normal, woff2 woff);
+@include font-face('Proximanova-semibold', '../fonts/Proximanova/proxima-nova-semibold-webfont', normal, normal, woff2 woff);
+@include font-face('Proximanova-light', '../fonts/Proximanova/proxima-nova-light-webfont', normal, normal, woff2 woff);
+@include font-face('Proximanova-regular', '../fonts/Proximanova/proxima-nova-regular-webfont', normal, normal, woff2 woff);
+@include font-face('Proximanova-black', '../fonts/Proximanova/proxima-nova-black-webfont', normal, normal, woff2 woff);
+
+@include font-face('Font Awesome 5 Brands', '../fonts/webfonts/fa-brands-400', normal, normal, eot woff2 woff ttf svg);
+@include font-face('Font Awesome 5 Free', '../fonts/webfonts/fa-regular-400', 400, normal, eot woff2 woff ttf svg);
+@include font-face('Font Awesome 5 Free', '../fonts/webfonts/fa-solid-900', 900, normal, eot woff2 woff ttf svg);

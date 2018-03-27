@@ -1,0 +1,65 @@
+
+/* @Import
+ ========================= */
+@import "../components/_variables";
+@import "../helpers/_mixins";
+
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: transparent url('../img/bg-background.png') center no-repeat;
+  z-index: 99998;
+}
+
+.preloader-status {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  font-size: 0;
+  background: transparent url('../img/icon-logo.svg') center no-repeat;
+  z-index: 99999;
+  animation: preloader-status 1s infinite linear;
+}
+
+/* @Keyframes
+ ========================= */
+@keyframes preloader-status {
+  0% {
+    transform: scale(0);
+  }
+  10% {
+    transform: scale(0.2);
+  }
+  20% {
+    transform: scale(0.4);
+  }
+  30% {
+    transform: scale(0.6);
+  }
+  40% {
+    transform: scale(0.8);
+  }
+  50% {
+    transform: scale(1);
+  }
+  60% {
+    transform: scale(0.8);
+  }
+  70% {
+    transform: scale(0.6);
+  }
+  80% {
+    transform: scale(0.4);
+  }
+  90% {
+    transform: scale(0.2);
+  }
+  100% {
+    transform: scale(0);
+  }
+}

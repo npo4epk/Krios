@@ -1,0 +1,82 @@
+{
+  "ru": {
+    "image": "liftway",
+    "name": "Liftway",
+    "industry": {
+      "title": "Индустрия:",
+      "text": "Лифтовое оборудование."
+    },
+    "market": {
+      "title": "Рынок:",
+      "text": "Россия, СНГ."
+    },
+    "projectDescription": {
+      "title": "Описание проекта:",
+      "text": "Площадка взаимодействия покупателей/ поставщиков в области лифтового оборудования. Возможности кабинета поставщика позоваляют организовать полный цикл преима/обработки заказов пользователей учитывая характерные для сферы особенности бизнес- процессов предзаказа , обеспечения гарантированных поставок, обеспечения качества  и пр."
+    },
+    "stackOfTechnologies": {
+      "title": "Стэк технологий:",
+      "text": "PHP 5, Kohana framework, MySQL, jQuery, Sphinx Search."
+    },
+    "teamMembers": {
+      "title": "Команда:",
+      "text": "System architect, Senior/Middle software developers, QA engineers, Project manager."
+    },
+    "periodOfDevelopment": {
+      "title": "Период разработки:",
+      "text": "> 3800 ч, дейстующий."
+    },
+    "teamsContribution": {
+      "title": "Роль команды:",
+      "text": "Полный цикл разработки."
+    },
+    "technicalChallenges": {
+      "title": "Технические особенности:",
+      "text": "Обработка прайсов большого объема в формате XLS файлов  . Организация полнотекстового поиска по большому количеству параметров."
+    },
+    "customerLocation": {
+      "title": "Локация заказчика:",
+      "text": "Россия."
+    }
+  },
+  "en": {
+    "image": "liftway",
+    "name": "Liftway",
+    "industry": {
+      "title": "Industry:",
+      "text": "Lift equipment."
+    },
+    "market": {
+      "title": "Market:",
+      "text": "Russia, CIS."
+    },
+    "projectDescription": {
+      "title": "Project description:",
+      "text": "The platform of interaction of buyers / suppliers in the field of elevator equipment. The possibilities of the supplier's cabinet allow to organize a full cycle of receiving / processing of orders from users, taking into account the specific features of business processes of pre-order including the provision of guaranteed supplies, high quality, etc."
+    },
+    "stackOfTechnologies": {
+      "title": "Stack of technologies:",
+      "text": "PHP 5, Kohana framework, MySQL, jQuery, Sphinx Search."
+    },
+    "teamMembers": {
+      "title": "Team members:",
+      "text": "System architect, Senior/Middle software developers, QA engineers, Project manager."
+    },
+    "periodOfDevelopment": {
+      "title": "Period of development:",
+      "text": "> 3800 hours, ongoing."
+    },
+    "teamsContribution": {
+      "title": "Team's contribution:",
+      "text": "Full cycle of development except UI/UX design."
+    },
+    "technicalChallenges": {
+      "title": "Technical challenges:",
+      "text": "Processing large price files in XLS files format. Organizing a full-text search by a large number of parameters."
+    },
+    "customerLocation": {
+      "title": "Customer location:",
+      "text": "Russia."
+    }
+  }
+}

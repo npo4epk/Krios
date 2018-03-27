@@ -1,0 +1,353 @@
+{
+  "ru" : {
+    "language": "RU",
+    "name": "Криос Групп",
+    "header": {
+      "language": "ru",
+      "languageChange": "en",
+      "writeUs": "Напишите нам"
+    },
+    "welcome": {
+      "title": "<b class='title__text--black'>Надежные</b> технологичные<br> решения для <b class='title__text--black'>стремительного<br>развития бизнеса</b>",
+      "cooperation": "Начать сотрудничество",
+      "scrolling": "О нас"
+    },
+    "about": {
+      "title": "О нас",
+      "items": [
+        {
+          "id": 1,
+          "text": "Более 5 лет на рынке<br>ИТ-аутсорсинга",
+          "title": "Более 5 лет на рынке ИТ-аутсорсинга"
+        },
+        {
+          "id": 2,
+          "text": "Глубокая вовлеченность в<br>проблематику бизнеса",
+          "title": "Глубокая вовлеченность в проблематику бизнеса"
+        },
+        {
+          "id": 3,
+          "text": "Грамотный подход к созданию и<br>развитию проектов",
+          "title": "Грамотный подход к созданию и развитию проектов"
+        },
+        {
+          "id": 4,
+          "text": "Опытная сплоченная команда<br>специалистов в Минске, Беларусь",
+          "title": "Опытная сплоченная команда специалистов в Минске, Беларусь"
+        }
+      ]
+    },
+    "services": {
+      "title": "Услуги и типы проектов",
+      "items": [
+        {
+          "id": 1,
+          "text": "Сбор и анализ данных",
+          "title": "Сбор и анализ данных"
+        },
+        {
+          "id": 2,
+          "text": "Сложные технологические решения",
+          "title": "Сложные технологические решения"
+        },
+        {
+          "id": 3,
+          "text": "Готовые решения для бизнеса",
+          "title": "Готовые решения для бизнеса"
+        },
+        {
+          "id": 4,
+          "text": "Веб сервисы и сопутствующие<br>партнерские программы",
+          "title": "Веб сервисы и сопутствующие<br>партнерские программы"
+        }
+      ]
+    },
+    "model": {
+      "title": "Модели сотрудничества",
+      "items": [
+        {
+          "id": 1,
+          "text": "Проектные работы",
+          "title": "Проектные работы"
+        },
+        {
+          "id": 2,
+          "text": "Формирование выделенных команд",
+          "title": "Формирование выделенных команд"
+        },
+        {
+          "id": 3,
+          "text": "Аутстаффинг",
+          "title": "Аутстаффинг"
+        },
+        {
+          "id": 4,
+          "text": "Менеджмент и<br>сопровождение",
+          "title": "Менеджмент и сопровождение"
+        }
+      ]
+    },
+    "portfolio": {
+    "title": "Узнать больше",
+    "items": [
+      {
+        "id": 1,
+        "title": "all4Bom"
+      },
+      {
+        "id": 2,
+        "title": "raui"
+      },
+      {
+        "id": 3,
+        "title": "prabook"
+      },
+      {
+        "id": 4,
+        "title": "liftway"
+      },
+      {
+        "id": 5,
+        "title": "marketParser"
+      },
+      {
+        "id": 6,
+        "title": "mtrCRM"
+      }
+    ]
+  },
+    "contacts": {
+      "title": "Контакты",
+      "submit": "Отправить",
+      "address": [
+        {
+          "id": 1,
+          "text": "<b class='address__item--bold'>Частное предприятие «КРИОС ГРУПП»</b>"
+        },
+        {
+          "id": 2,
+          "text": "<b class='address__item--bold'>Адрес: </b>ул. Домбровская, д. 9, офис 12.2.4,"
+        },
+        {
+          "id": 3,
+          "text": "220140, г. Минск, Республика Беларусь"
+        },
+        {
+          "id": 4,
+          "text": "УНП 191682495"
+        },
+        {
+          "id": 5,
+          "text": "<b class='address__item--bold'>E-mail: </b><a href='mailto:director@krios.by' title='director@krios.by' class='address__link'>director@krios.by</a>"
+        }
+      ],
+      "form": [
+        {
+          "id": 1,
+          "text": "Имя",
+          "name": "name",
+          "type": "text"
+        },
+        {
+          "id": 2,
+          "text": "Эл. почта",
+          "name": "email",
+          "type": "email"
+        },
+        {
+          "id": 3,
+          "text": "Телефон",
+          "name": "phone",
+          "type": "tel"
+        },
+        {
+          "id": 4,
+          "text": "Вопрос",
+          "name": "message",
+          "type": "text"
+        }
+      ],
+      "answer": {
+        "done": "Ваше письмо успешно отправлено.",
+        "fail": "Что то пошло не так. Пожалуйста, попробуйте отправить e-mail напрямую на <a href='mailto:director@krios.by'>director@krios.by</a>."
+      },
+      "footer": "© 2018 КРИОС ГРУПП.  Все права защищены"
+    }
+  },
+  "en" : {
+    "language": "EN",
+    "languageChange": "ru",
+    "name": "Krios Group",
+    "header": {
+      "language": "en",
+      "languageChange": "ru",
+      "writeUs": "Contact us"
+    },
+    "welcome": {
+      "title": "<b class='title__text--black'>Reliable</b> technology<br> solutions for the <b class='title__text--black'>rapid<br>business development</b>",
+      "cooperation": "Start cooperation",
+      "scrolling": "About us"
+    },
+    "about": {
+      "title": "About us",
+      "items": [
+        {
+          "id": 1,
+          "text": "More than 5 years on the<br>IT outsourcing market",
+          "title": "More than 5 years on the IT outsourcing market"
+        },
+        {
+          "id": 2,
+          "text": "Deep involvement in the<br>business-related goals",
+          "title": "Deep involvement in the business-related goals"
+        },
+        {
+          "id": 3,
+          "text": "Competent approach to<br>the project development",
+          "title": "Competent approach to the project development"
+        },
+        {
+          "id": 4,
+          "text": "An experienced team of IT<br>specialists in Minsk, Belarus",
+          "title": "An experienced team of IT specialists in Minsk, Belarus"
+        }
+      ]
+    },
+    "services": {
+      "title": "Solutions for Business",
+      "items": [
+        {
+          "id": 1,
+          "text": "Data mining and analysis",
+          "title": "Data mining and analysis"
+        },
+        {
+          "id": 2,
+          "text": "Complex tech solutions",
+          "title": "Complex tech solutions"
+        },
+        {
+          "id": 3,
+          "text": "Ready platforms for business",
+          "title": "Ready platforms for business"
+        },
+        {
+          "id": 4,
+          "text": "Web services and related<br>affiliate programs",
+          "title": "Web services and related affiliate programs"
+        }
+      ]
+    },
+    "model": {
+      "title": "Engagement models",
+      "items": [
+        {
+          "id": 1,
+          "text": "Project outsourcing",
+          "title": "Project outsourcing"
+        },
+        {
+          "id": 2,
+          "text": "Dedicateed teams",
+          "title": "Dedicateed teams"
+        },
+        {
+          "id": 3,
+          "text": "Outstaffing",
+          "title": "Outstaffing"
+        },
+        {
+          "id": 4,
+          "text": "Project manegement and<br>maintenance",
+          "title": "Project manegement and maintenance"
+        }
+      ]
+    },
+    "portfolio": {
+      "title": "Learn more",
+      "items": [
+        {
+          "id": 1,
+          "title": "all4Bom"
+        },
+        {
+          "id": 2,
+          "title": "raui"
+        },
+        {
+          "id": 3,
+          "title": "prabook"
+        },
+        {
+          "id": 4,
+          "title": "liftway"
+        },
+        {
+          "id": 5,
+          "title": "marketParser"
+        },
+        {
+          "id": 6,
+          "title": "mtrCRM"
+        }
+      ]
+    },
+    "contacts": {
+      "title": "Contacts us",
+      "submit": "Send",
+      "address": [
+        {
+          "id": 1,
+          "text": "<b class='address__item--bold'>Private enterprise «KRIOS GROUP»</b>"
+        },
+        {
+          "id": 2,
+          "text": "<b class='address__item--bold'>Address: </b>ul. Dombrovskaya, d.9 off. 12.2.4,"
+        },
+        {
+          "id": 3,
+          "text": "220140, Minsk, the Republic of Belarus"
+        },
+        {
+          "id": 4,
+          "text": "UID 191682495"
+        },
+        {
+          "id": 5,
+          "text": "<b class='address__item--bold'>E-mail: </b><a href='mailto:director@krios.by' title='director@krios.by' class='address__link'>director@krios.by</a>"
+        }
+      ],
+      "form": [
+        {
+          "id": 1,
+          "text": "Name",
+          "name": "name",
+          "type": "text"
+        },
+        {
+          "id": 2,
+          "text": "E-mail",
+          "name": "email",
+          "type": "email"
+        },
+        {
+          "id": 3,
+          "text": "Phone",
+          "name": "phone",
+          "type": "tel"
+        },
+        {
+          "id": 4,
+          "text": "Question",
+          "name": "message",
+          "type": "text"
+        }
+      ],
+      "answer": {
+        "done": "Your letter has been successfully sent.",
+        "fail": "Something went wrong. Please, try to send an email to <a href='mailto:director@krios.by'>director@krios.by</a>."
+      },
+      "footer": "© 2018 KRIOS GROUP. All Right reserved"
+    }
+  }
+}

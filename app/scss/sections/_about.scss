@@ -1,0 +1,37 @@
+
+/* @Import
+ ========================= */
+@import "../components/_variables";
+@import "../helpers/_mixins";
+
+.about {
+  position: relative;
+  display: block;
+  height: 100%;
+  background-color: $bgc-ffffff;
+  overflow: hidden;
+
+  &__description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+}
+
+/* @Import
+ ========================= */
+@import "../helpers/_item";
+
+/* @Media
+ ========================= */
+@media only screen and (max-width: $size-992) {
+
+  .about {
+    height: auto !important;
+    padding: 30px 0;
+  }
+
+}

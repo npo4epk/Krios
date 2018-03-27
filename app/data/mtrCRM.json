@@ -1,0 +1,82 @@
+{
+  "ru": {
+    "image": "mtrCRM",
+    "name": "MTR CRM",
+    "industry": {
+      "title": "Индустрия:",
+      "text": "Электронная коммерция."
+    },
+    "market": {
+      "title": "Рынок:",
+      "text": "Глобальный."
+    },
+    "projectDescription": {
+      "title": "Описание проекта:",
+      "text": "Узкоспециализированныя CRM система в области интернет торговли.   Включает модуль для коммуникации с клиентами,  треккер задач, модуль автоматической генерации документов, отчетность и пр."
+    },
+    "stackOfTechnologies": {
+      "title": "Стэк технологий:",
+      "text": "PHP 5, Symfony 2 framework, ansible, MySQL, RabbitMQ, jQuery, AngularJS 1, Twitter Bootstrap, mail sending services APIs (Mailgun, Sendgrid etc)."
+    },
+    "teamMembers": {
+      "title": "Команда:",
+      "text": "System architect, Senior software developers, QA engineers, Project manager."
+    },
+    "periodOfDevelopment": {
+      "title": "Период разработки:",
+      "text": "> 4200 ч, дейстующий."
+    },
+    "teamsContribution": {
+      "title": "Роль команды:",
+      "text": "Полный цикл разработки."
+    },
+    "technicalChallenges": {
+      "title": "Технические особенности:",
+      "text": "Низкоуровневая работа с протоколами imap, pop3, socks5, событийно-ориентированный бэкенд (фоновые задачи в rabbitmq, блокировки, события), сложная бизнес-логика."
+    },
+    "customerLocation": {
+      "title": "Локация заказчика:",
+      "text": "США."
+    }
+  },
+  "en": {
+    "image": "mtrCRM",
+    "name": "MTR CRM",
+    "industry": {
+      "title": "Industry:",
+      "text": "E-commerce."
+    },
+    "market": {
+      "title": "Market:",
+      "text": "Global."
+    },
+    "projectDescription": {
+      "title": "Project description:",
+      "text": "A highly specialized CRM system in the field of Internet commerce. It includes a module for communication with clients, task tracker, a module for automatic generation of documents, reporting, etc."
+    },
+    "stackOfTechnologies": {
+      "title": "Stack of technologies:",
+      "text": "PHP 5, Symfony 2 framework, ansible, MySQL, RabbitMQ, jQuery, AngularJS 1, Twitter Bootstrap, mail sending services APIs (Mailgun, Sendgrid etc)."
+    },
+    "teamMembers": {
+      "title": "Team members:",
+      "text": "System architect, Senior software developers, QA engineers, Project manager."
+    },
+    "periodOfDevelopment": {
+      "title": "Period of development:",
+      "text": "> 4200 hours, ongoing."
+    },
+    "teamsContribution": {
+      "title": "Team's contribution:",
+      "text": "Full cycle of development."
+    },
+    "technicalChallenges": {
+      "title": "Technical challenges:",
+      "text": "Low layer work with the protocols imap, pop3, socks5, event-driven back end (background tasks in rabbitmq, blocks, events), complex business logic."
+    },
+    "customerLocation": {
+      "title": "Customer location:",
+      "text": "USA."
+    }
+  }
+}

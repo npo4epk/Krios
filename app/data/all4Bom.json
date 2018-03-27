@@ -1,0 +1,82 @@
+{
+  "ru": {
+    "image": "all4Bom",
+    "name": "All4Bom",
+    "industry": {
+      "title": "Индустрия:",
+      "text": "Электроинженерия."
+    },
+    "market": {
+      "title": "Рынок:",
+      "text": "Глобальный."
+    },
+    "projectDescription": {
+      "title": "Описание проекта:",
+      "text": "Глобальная площадка для взаимодействия производителей/ поставщиков / покупатиелей    электро-инженерных продуктов и компонентов.  Продукт позволяет выстроить полноценную работу организации от создания чертежей, до организации закупок и складского учета."
+    },
+    "stackOfTechnologies": {
+      "title": "Стэк технологий:",
+      "text": "PHP 7, Symfony 3 framework, Docker, AngularJS, phpUnit, CSS3, HTML5, Canvas with Fabric.js."
+    },
+    "teamMembers": {
+      "title": "Команда:",
+      "text": "System architect, Senior software developers, QA engineers, Project manager, UI/UX Designer."
+    },
+    "periodOfDevelopment": {
+      "title": "Период разработки:",
+      "text": "> 5800 ч, дейстующий."
+    },
+    "teamsContribution": {
+      "title": "Роль команды:",
+      "text": "Полный цикл разработки."
+    },
+    "technicalChallenges": {
+      "title": "Технические особенности:",
+      "text": "Архитектура канвас-приложений, событийная ориентированность, геометрия (тригонометрия), адаптация фреймворка Fabric.js под особенности приложения (большое количество и сложная взаимосвязь объектов на канвасе)."
+    },
+    "customerLocation": {
+      "title": "Локация заказчика:",
+      "text": "Израиль."
+    }
+  },
+  "en": {
+    "image": "all4Bom",
+    "name": "All4Bom",
+    "industry": {
+      "title": "Industry:",
+      "text": "Electrical engineering."
+    },
+    "market": {
+      "title": "Market:",
+      "text": "Global."
+    },
+    "projectDescription": {
+      "title": "Project description:",
+      "text": "A global platform for cooperation of producers/suppliers/buyers of products and components in the field of electrical engineering. The product allows to build an efficient system of managing a company, i.e. from creating the drawings to organizing purchases and keeping stock records."
+    },
+    "stackOfTechnologies": {
+      "title": "Stack of technologies:",
+      "text": "PHP 7, Symfony 3 framework, Docker, AngularJS, phpUnit, CSS3, HTML5, Canvas with Fabric.js."
+    },
+    "teamMembers": {
+      "title": "Team members:",
+      "text": "System architect, Senior software developers, QA engineers, Project manager, UI/UX Designer."
+    },
+    "periodOfDevelopment": {
+      "title": "Period of development:",
+      "text": "> 5800 hours, ongoing."
+    },
+    "teamsContribution": {
+      "title": "Team's contribution:",
+      "text": "Full cycle of development."
+    },
+    "technicalChallenges": {
+      "title": "Technical challenges:",
+      "text": "The architecture of canvas-applications, event-orientation, geometry (trigonometry), adaptation of the framework Fabric.js to the peculiarities of the application (a big number and complexity of links between the objects on the canvas)."
+    },
+    "customerLocation": {
+      "title": "Customer location:",
+      "text": "Israel."
+    }
+  }
+}

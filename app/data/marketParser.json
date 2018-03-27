@@ -1,0 +1,82 @@
+{
+  "ru": {
+    "image": "marketParser",
+    "name": "MarketParser",
+    "industry": {
+      "title": "Индустрия:",
+      "text": "Маркетинговые инструменты."
+    },
+    "market": {
+      "title": "Рынок:",
+      "text": "Россия, СНГ."
+    },
+    "projectDescription": {
+      "title": "Описание проекта:",
+      "text": "Встроенная система мониторинга используется для отслеживания цен конкурентов по  заданным региональным рынкам сбыта и товарным позициям. Инструмент генерации прайсов позволяет настроить стратегию  формирования цен для позиций номенклатуры и использовать полученные данные для внутренних целей компании и на сторонних ресурсах. Модуль аналитики позволяет настраивать параметры ежедневного и еженедельного отчета для целей маркетингового исследования и поддержки принятия управленческих решений в компании."
+    },
+    "stackOfTechnologies": {
+      "title": "Стэк технологий:",
+      "text": "PHP 7, Symfony 3 framework, ansible, docker, MySQL, rabbitmq, elasticsearch (ELK stack), BDD with Behat."
+    },
+    "teamMembers": {
+      "title": "Команда:",
+      "text": "System architect, Senior software developers,QA engineers, Project manager."
+    },
+    "periodOfDevelopment": {
+      "title": "Период разработки:",
+      "text": "> 4000 ч, дейстующий."
+    },
+    "teamsContribution": {
+      "title": "Роль команды:",
+      "text": "Полный цикл разработки."
+    },
+    "technicalChallenges": {
+      "title": "Технические особенности:",
+      "text": "Работы с большими объемами данных. 6 миллионов обрабатываемых товарных позиций в месяц, около 100 миллионов собранных предложений в месяц."
+    },
+    "customerLocation": {
+      "title": "Локация заказчика:",
+      "text": "Беларусь."
+    }
+  },
+  "en": {
+    "image": "marketParser",
+    "name": "MarketParser",
+    "industry": {
+      "title": "Industry:",
+      "text": "Marketing Tools."
+    },
+    "market": {
+      "title": "Market:",
+      "text": "Russia, CIS."
+    },
+    "projectDescription": {
+      "title": "Project description:",
+      "text": "The built-in monitoring system is used to track the prices of competitors on specified regional sales markets and commodity items. The price generation tool allows setting up a pricing strategy for items in the item list, and use the obtained data both for the internal purposes of the company, and on the outside resources. The analytics module allows setting the parameters of daily and weekly reports for the purposes of marketing research, and supporting the company’s management decision making."
+    },
+    "stackOfTechnologies": {
+      "title": "Stack of technologies:",
+      "text": "PHP 7, Symfony 3 framework, ansible, docker, MySQL, rabbitmq, elasticsearch (ELK stack), BDD with Behat."
+    },
+    "teamMembers": {
+      "title": "Team members:",
+      "text": "System architect, Senior software developers,QA engineers, Project manager."
+    },
+    "periodOfDevelopment": {
+      "title": "Period of development:",
+      "text": "> 4000 hours, ongoing."
+    },
+    "teamsContribution": {
+      "title": "Team's contribution:",
+      "text": "Full cycle of development."
+    },
+    "technicalChallenges": {
+      "title": "Technical challenges:",
+      "text": "Handling large data volume. Six million of processed commodity items per month; about one hundred million of offers obtained per month."
+    },
+    "customerLocation": {
+      "title": "Customer location:",
+      "text": "Belarus."
+    }
+  }
+}

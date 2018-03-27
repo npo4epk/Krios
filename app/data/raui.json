@@ -1,0 +1,82 @@
+{
+  "ru": {
+    "image": "raui",
+    "name": "Raui",
+    "industry": {
+      "title": "Индустрия:",
+      "text": "Недвижимость."
+    },
+    "market": {
+      "title": "Рынок:",
+      "text": "Россия, СНГ."
+    },
+    "projectDescription": {
+      "title": "Описание проекта:",
+      "text": "Портал в сфере недвижимости, объединяющий клиентов и риэлторсикие компании по всей России. Широкий выбора инструментов позволяет максиммально быстро получить искомый результат как клиентам,  так и выстроить полноценную работу в рамах деятельности компании либо индивижуального предпринимателя в сфере риелт-бизнеса."
+    },
+    "stackOfTechnologies": {
+      "title": "Стэк технологий:",
+      "text": "PHP 5, Kohana php framework, MySQL, RabbitMQ, jQuery, Docker, YandexXML."
+    },
+    "teamMembers": {
+      "title": "Команда:",
+      "text": "System architect, Senior/Middle software developers, QA engineers, Project manager."
+    },
+    "periodOfDevelopment": {
+      "title": "Период разработки:",
+      "text": "> 1800 ч, дейстующий."
+    },
+    "teamsContribution": {
+      "title": "Роль команды:",
+      "text": "Полный цикл разработки за исключением UI/UX дизайна."
+    },
+    "technicalChallenges": {
+      "title": "Технические особенности:",
+      "text": "Ежедневное обновление более 300 XML фидов, обработка 10 миллионов объявлений в месяц, с возможностью масштабирования объема в 5 раз. Обработка/генерация XML фидов больших объемов (более 1 гб).  Организация поиска по большому количеству параметров."
+    },
+    "customerLocation": {
+      "title": "Локация заказчика:",
+      "text": "Россия."
+    }
+  },
+  "en": {
+    "image": "raui",
+    "name": "Raui",
+    "industry": {
+      "title": "Industry:",
+      "text": "Realty."
+    },
+    "market": {
+      "title": "Market:",
+      "text": "Russia, CIS."
+    },
+    "projectDescription": {
+      "title": "Project description:",
+      "text": "A real estate portal uniting clients and real estate companies in all regions of Russia. A wide range of tools allows the clients to get a result within the shortest possible time; and provides the companies or sole entrepreneurs the opportunity to create effective business model in the framework of the company’s activities."
+    },
+    "stackOfTechnologies": {
+      "title": "Stack of technologies:",
+      "text": "PHP 5, Kohana php framework, MySQL, RabbitMQ, jQuery, Docker, YandexXML."
+    },
+    "teamMembers": {
+      "title": "Team members:",
+      "text": "System architect, Senior/Middle software developers, QA engineers, Project manager."
+    },
+    "periodOfDevelopment": {
+      "title": "Period of development:",
+      "text": "> 1800 hours, ongoing."
+    },
+    "teamsContribution": {
+      "title": "Team's contribution:",
+      "text": "Full cycle of development except UI/UX design."
+    },
+    "technicalChallenges": {
+      "title": "Technical challenges:",
+      "text": "Daily updating of over three hundred XML feeds, processing of 10 million advertisements per month, with the possibility to scale the volume fivefold. Processing / generation of large-size XML feeds (more than 1 GB). Organizing the search by a large number of parameters."
+    },
+    "customerLocation": {
+      "title": "Customer location:",
+      "text": "Russia."
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "ru": {
+    "image": "prabook",
+    "name": "Prabook",
+    "industry": {
+      "title": "Индустрия:",
+      "text": "Онлайн энциклопедия /Социальный проект."
+    },
+    "market": {
+      "title": "Рынок:",
+      "text": "Глобальный."
+    },
+    "projectDescription": {
+      "title": "Описание проекта:",
+      "text": "Биографическая онлайн энциклопедия с  открытым контентом. Prabook собирает и хранит информацию о персоналиях, которые внесли свой вклад в жизнь страны, общества или  профессиональную область деятельности.  Персоналии,  на которых можно найти достаточные данные в книгах, журналах, публичных и частных библиотеках и архивах."
+    },
+    "stackOfTechnologies": {
+      "title": "Стэк технологий:",
+      "text": "PHP 7, Symfony 3 framework, Docker, PostgreSQL, RabbitMQ, BDD with Behat, SpecBDD with PHPSpec, Bootstrap 3, Semantic-UI, Vue.js."
+    },
+    "teamMembers": {
+      "title": "Команда:",
+      "text": "System architect, Senior/Middle software developers, QA engineers, Project manager."
+    },
+    "periodOfDevelopment": {
+      "title": "Период разработки:",
+      "text": "> 5000 ч, дейстующий."
+    },
+    "teamsContribution": {
+      "title": "Роль команды:",
+      "text": "Разработка инструмента для анализа и структуризации базовой входящей информации; формирование наборов статистических данных для поддержки принятия стратегических решений;  поставка обработанных данных, используемых  в качестве основного контента энциклопедии."
+    },
+    "technicalChallenges": {
+      "title": "Технические особенности:",
+      "text": "Этапы индивидуальной и общей обработки для каждого источника данных. Хранение и повторная обработка миллионов биографических статей . Сопоставление  статей о персоналиях,  продублированных в разных источниках для получения связанной уникальной статьи. Распознавание лиц на фотографиях."
+    },
+    "customerLocation": {
+      "title": "Локация заказчика:",
+      "text": "США."
+    }
+  },
+  "en": {
+    "image": "prabook",
+    "name": "Prabook",
+    "industry": {
+      "title": "Industry:",
+      "text": "Online encyclopedia / Social Project."
+    },
+    "market": {
+      "title": "Market:",
+      "text": "Global."
+    },
+    "projectDescription": {
+      "title": "Project description:",
+      "text": "Оnline open-content collaborative biographical encyclopedia . Prabook mission: to record and preserve information on individuals who have made a contribution to their nation, local community or any professional field, and on whom sufficient data can be found in books, magazines, public and private libraries, and archives."
+    },
+    "stackOfTechnologies": {
+      "title": "Stack of technologies:",
+      "text": "PHP 7, Symfony 3 framework, Docker, PostgreSQL, RabbitMQ, BDD with Behat, SpecBDD with PHPSpec, Bootstrap 3, Semantic-UI, Vue.js."
+    },
+    "teamMembers": {
+      "title": "Team members:",
+      "text": "System architect, Senior/Middle software developers, QA engineers, Project manager."
+    },
+    "periodOfDevelopment": {
+      "title": "Period of development:",
+      "text": "> 5000 hours, ongoing."
+    },
+    "teamsContribution": {
+      "title": "Team's contribution:",
+      "text": "Development of an instrument for analyzing and structuring basic input data, forming a set of statistical data to support the process of strategic decision making; delivery of processed data used as the core content of the encyclopedia."
+    },
+    "technicalChallenges": {
+      "title": "Technical challenges:",
+      "text": "The stages of individual and common data processing for each source of information. Storage and re-processing of millions of biographic articles. Comparison of articles about personalities replicated in different sources for creating a linked unique article. Recognition of faces on photos."
+    },
+    "customerLocation": {
+      "title": "Customer location:",
+      "text": "USA."
+    }
+  }
+}

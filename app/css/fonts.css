@@ -1,0 +1,70 @@
+/* @Import
+ ========================= */
+/* FONTS-FACE
+ 	@include font-face('FontAwesome', '../fonts/FontAwesome/fontawesome-webfont', normal, normal, eot woff2 woff ttf svg);
+ ========================= */
+/* PX in REM
+ 	@include rem(lh, 12, 16);
+	@include rem(fs, 12, 16);
+ ========================= */
+/* PSEUDO
+	@include pseudo(block, absolute, ' ');
+ ========================= */
+/* CLEARFIX
+	@include clearfix()
+ ========================= */
+/* PLEACEHOLDER
+	@include placeholder(red, normal, none)
+ ========================= */
+/* LIST-CLEAR
+	@include list-clear()
+ ========================= */
+/* @Fonts
+ ========================= */
+@font-face {
+  font-family: "Proximanova-bold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Proximanova/proxima-nova-bold-webfont.woff2") format("woff2"), url("../fonts/Proximanova/proxima-nova-bold-webfont.woff") format("woff"); }
+
+@font-face {
+  font-family: "Proximanova-semibold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Proximanova/proxima-nova-semibold-webfont.woff2") format("woff2"), url("../fonts/Proximanova/proxima-nova-semibold-webfont.woff") format("woff"); }
+
+@font-face {
+  font-family: "Proximanova-light";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Proximanova/proxima-nova-light-webfont.woff2") format("woff2"), url("../fonts/Proximanova/proxima-nova-light-webfont.woff") format("woff"); }
+
+@font-face {
+  font-family: "Proximanova-regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Proximanova/proxima-nova-regular-webfont.woff2") format("woff2"), url("../fonts/Proximanova/proxima-nova-regular-webfont.woff") format("woff"); }
+
+@font-face {
+  font-family: "Proximanova-black";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Proximanova/proxima-nova-black-webfont.woff2") format("woff2"), url("../fonts/Proximanova/proxima-nova-black-webfont.woff") format("woff"); }
+
+@font-face {
+  font-family: "Font Awesome 5 Brands";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/webfonts/fa-brands-400.eot?") format("eot"), url("../fonts/webfonts/fa-brands-400.woff2") format("woff2"), url("../fonts/webfonts/fa-brands-400.woff") format("woff"), url("../fonts/webfonts/fa-brands-400.ttf") format("truetype"), url('../fonts/webfonts/fa-brands-400.svg#str-replace("Font Awesome 5 Brands", " ", "_")') format("svg"); }
+
+@font-face {
+  font-family: "Font Awesome 5 Free";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/webfonts/fa-regular-400.eot?") format("eot"), url("../fonts/webfonts/fa-regular-400.woff2") format("woff2"), url("../fonts/webfonts/fa-regular-400.woff") format("woff"), url("../fonts/webfonts/fa-regular-400.ttf") format("truetype"), url('../fonts/webfonts/fa-regular-400.svg#str-replace("Font Awesome 5 Free", " ", "_")') format("svg"); }
+
+@font-face {
+  font-family: "Font Awesome 5 Free";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/webfonts/fa-solid-900.eot?") format("eot"), url("../fonts/webfonts/fa-solid-900.woff2") format("woff2"), url("../fonts/webfonts/fa-solid-900.woff") format("woff"), url("../fonts/webfonts/fa-solid-900.ttf") format("truetype"), url('../fonts/webfonts/fa-solid-900.svg#str-replace("Font Awesome 5 Free", " ", "_")') format("svg"); }

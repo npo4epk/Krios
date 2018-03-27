@@ -1,0 +1,174 @@
+
+/* @Import
+ ========================= */
+@import "components/_variables";
+@import "helpers/_mixins";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: $font-semibold;
+  font-size: $font-size-18;
+}
+
+body {
+  position: relative;
+  display: block;
+  font-family: $font-semibold;
+  font-size: $font-size-18;
+  font-size: 1rem;
+  line-height: $line-height-20;
+  line-height: 1.111rem;
+  background-color: $bgc-ffffff;
+  color: $color-313030;
+}
+
+.container {
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: $size-1650;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.body-hidden {
+  overflow: hidden !important;
+}
+
+#page-vue {
+  opacity: 0;
+}
+
+/* @Import preloader
+ ========================= */
+@import "sections/_preloader";
+
+/* @Import header
+ ========================= */
+@import "sections/_header";
+
+/* @Import welcome
+ ========================= */
+@import "sections/_welcome";
+
+/* @Import about
+ ========================= */
+@import "sections/_about";
+
+/* @Import services
+ ========================= */
+@import "sections/_services";
+
+/* @Import model
+ ========================= */
+@import "sections/_model";
+
+/* @Import portfolio
+ ========================= */
+@import "sections/_portfolio";
+
+/* @Import contacts
+ ========================= */
+@import "sections/_contacts";
+
+/* @Import modal
+ ========================= */
+@import "sections/_modal";
+
+/* fp-nav css
+ ========================= */
+#fp-nav {
+
+  ul {
+
+    li {
+      width: 20px;
+      height: 20px;
+      margin: 5px;
+
+      a {
+        &.active {
+
+          span {
+            background-image: url('../img/nav/icon-white-active.png');
+          }
+        }
+
+        span {
+          position: relative;
+          top: 0;
+          left: 0;
+          display: block;
+          height: 100% !important;;
+          width: 100% !important;;
+          border-radius: 0 !important;
+          background-color: transparent;
+          background-image: url('../img/nav/icon-white.png');
+          background-repeat: no-repeat;
+          background-position: center;
+          margin: 0 !important;;
+          transition: all 0.5s;
+        }
+      }
+
+      &:hover {
+        a {
+
+          &.active {
+
+            span {
+              background-image: url('../img/nav/icon-white-active.png');
+            }
+          }
+
+          span {
+            background-image: url('../img/nav/icon-white-active.png');
+          }
+        }
+      }
+    }
+  }
+}
+
+.fp-viewing-about #fp-nav,
+.fp-viewing-model #fp-nav,
+.fp-viewing-contacts #fp-nav {
+
+  ul {
+
+    li {
+
+      a {
+        &.active {
+
+          span {
+            background-image: url('../img/nav/icon-black-active.png');
+          }
+        }
+
+        span {
+          background-image: url('../img/nav/icon-black.png');
+        }
+      }
+
+      &:hover {
+        a {
+
+          &.active {
+
+            span {
+              background-image: url('../img/nav/icon-black-active.png');
+            }
+          }
+
+          span {
+            background-image: url('../img/nav/icon-black-active.png');
+          }
+        }
+      }
+    }
+  }
+}
